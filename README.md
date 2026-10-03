@@ -21,26 +21,25 @@
 
 ## Repository structure
 
-Solutions are organized by topic folder, then problem ID. Each submission is stored as a separate file:
+Each problem has a folder directly inside `Data Structures & Algorithms/`. Its submissions are separate files named by submission number:
 
 ```
-<topic-folder>/
-  <problem-id>/
-    submission-0.<ext>   ← first submission
-    submission-1.<ext>   ← second submission
-    ...
+Data Structures & Algorithms/
+  <problem-slug>/
+    submission-<number>.<ext>
 ```
 
-**Example:**
+For example, the two-integer-sum solution is at:
+
 ```
 Data Structures & Algorithms/two-integer-sum/submission-0.py
-Data Structures & Algorithms/binary-search/submission-0.ts
-Python For Beginners/python-hello-world/submission-0.py
 ```
 
 ---
 
-## Supported languages
+## Language file extensions
+
+This checkout currently contains Python solutions. GitHub Sync uses these file extensions for the listed languages:
 
 | Language | Extension |
 |---|---|
